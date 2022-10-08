@@ -18,4 +18,4 @@ git config user.email "garvitagrawal2003@gmail.com"
 git remote add origin "yourrepolink.git"
 
 git commit -m "anymessage"
-git push -u orogin main
+git push -u orogin main     #or master or whatever branch
