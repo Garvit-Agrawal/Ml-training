@@ -1,0 +1,16 @@
+bring the data
+Preprocessing/Analysis
+
+Split Data(Training, Teating)
+From sklearn.model_selection import train_test_split xtrain, xtrsin, ytrain, 
+            ytest=train_test_split(features, target, test_size=0.25, random_state=101)
+
+
+Train the model_selectionfrom sklearn.linear_model import LinearRegression
+model=LinearRegression()
+model.fit(xtrain, ytrain)
+
+Model Evaluation
+model.score(xtest, ytest)*100
+
+Deploy the Modelypred=model.predict(any_query_data)
